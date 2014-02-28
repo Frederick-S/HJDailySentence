@@ -24,8 +24,7 @@ function display(data) {
     var german = $($sentences[0]).text().trim();
     var chinese = $($sentences[1]).text().trim();
 
-    console.log(german);
-    console.log(chinese);
+    console.log(german + ' / ' + chinese);
 }
 
 var url = 'http://de.hujiang.com';

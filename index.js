@@ -97,7 +97,10 @@ for (var language in config) {
     download(config[language].url, (function (lan) {
         return function (data) {
             var parser = createParser(lan);
-            results.push(parser.parse(data));
+
+            if (parser) {
+                results.push(parser.parse(data));
+            }
 
             if (results.length == length) {
                 render(results);

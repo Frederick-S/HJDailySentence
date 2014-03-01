@@ -1,8 +1,11 @@
 {
   "name": "dailysentence",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get daily sentence from Hujiang site",
   "main": "index.js",
+  "bin": {
+    "dailysentence": "./bin/dailysentence"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Frederick-S/HJDailySentence.git"

@@ -23,7 +23,7 @@ var EnglishParser = function () {
         var english = $($sentences[0]).text().trim();
         var chinese = $($sentences[1]).text().trim();
 
-        return [english, chinese];
+        return ['英语', english, chinese];
     }
 }
 
@@ -36,7 +36,7 @@ var GermanParser = function () {
         var german = $($sentences[0]).text().trim();
         var chinese = $($sentences[1]).text().trim();
 
-        return [german, chinese];
+        return ['德语', german, chinese];
     }
 }
 
@@ -49,7 +49,7 @@ var JapaneseParser = function () {
         var japanese = sentences[0].trim();
         var chinese = sentences[1].trim();
 
-        return [japanese, chinese];
+        return ['日语', japanese, chinese];
     }
 }
 
@@ -84,14 +84,11 @@ var createParser = function (name) {
 var render = function (results) {
     if (results) {
         var table = new Table({
-            head: ['原文', '翻译']
+            head: ['语种', '原文', '翻译']
         });
 
-        var origin = '', chinese = '';
         for (var i = 0, length = results.length; i < length; i++) {
-            origin = results[i][0];
-            chinese = results[i][1];
-            table.push([origin, chinese]);
+            table.push(results[i]);
         }
 
         console.log(table.toString());

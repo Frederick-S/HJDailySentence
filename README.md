@@ -12,4 +12,5 @@ Run `dailysentence` in terminal.
 ```bash
 $ dailysentence
 ```
+![Demo](https://github.com/Frederick-S/HJDailySentence/blob/master/screenshot.png?raw=true)
 

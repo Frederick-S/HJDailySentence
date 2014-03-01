@@ -45,8 +45,8 @@ var JapaneseParser = function () {
         var $daily = $('#daily_show');
         var sentences = $daily.find('a').text().split('/');
 
-        var japanese = sentences[0];
-        var chinese = sentences[1];
+        var japanese = sentences[0].trim();
+        var chinese = sentences[1].trim();
 
         return [japanese, chinese];
     }

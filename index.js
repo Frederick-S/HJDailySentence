@@ -1,5 +1,6 @@
 var http = require('http'),
-    cheerio = require('cheerio');
+    cheerio = require('cheerio'),
+    Table = require('cli-table');
 
 var config = {
     'en': {
@@ -82,9 +83,18 @@ var createParser = function (name) {
 
 var render = function (results) {
     if (results) {
+        var table = new Table({
+            head: ['原文', '翻译']
+        });
+
+        var origin = '', chinese = '';
         for (var i = 0, length = results.length; i < length; i++) {
-            console.log(results[i][0] + ' / ' + results[i][1]);
+            origin = results[i][0];
+            chinese = results[i][1];
+            table.push([origin, chinese]);
         }
+
+        console.log(table.toString());
     } else {
         console.log('Input is empty...')
     }

@@ -10,7 +10,8 @@
   "author": "Frederick-S",
   "license": "MIT",
   "dependencies": {
-    "cheerio": ">=0.13.1"
+    "cheerio": ">=0.13.1",
+    "cli-table": "https://github.com/katoy/cli-table/tarball/kanjiWidth"
   },
   "engines": {
     "node": "*"

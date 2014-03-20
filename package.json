@@ -1,6 +1,6 @@
 {
   "name": "dailysentence",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Get daily sentence from Hujiang site",
   "main": "index.js",
   "bin": {

@@ -12,5 +12,5 @@ Run `dailysentence` in terminal.
 ```bash
 $ dailysentence
 ```
-![Demo](screenshot.png)
+![Demo](https://raw.github.com/Frederick-S/HJDailySentence/master/screenshot.png)
 

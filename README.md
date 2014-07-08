@@ -14,3 +14,5 @@ $ dailysentence
 ```
 ![Demo](https://raw.github.com/Frederick-S/HJDailySentence/master/screenshot.png)
 
+## License
+MIT.

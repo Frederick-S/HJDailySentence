@@ -1,6 +1,6 @@
 {
   "name": "dailysentence",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Get daily sentence from Hujiang site",
   "main": "index.js",
   "bin": {
@@ -14,7 +14,9 @@
   "license": "MIT",
   "dependencies": {
     "cheerio": ">=0.13.1",
-    "cli-table": "https://github.com/katoy/cli-table/tarball/kanjiWidth"
+    "cli-table": "https://github.com/katoy/cli-table/tarball/kanjiWidth",
+    "async": "0.9.0",
+    "request": "2.36.0"
   },
   "engines": {
     "node": "*"

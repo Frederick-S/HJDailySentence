@@ -7,5 +7,6 @@
     "unused": "vars",
     "strict": true,
     "node": true,
-    "quotmark": true
+    "quotmark": true,
+    "maxlen": 80
 }

@@ -7,4 +7,3 @@ var lib = path.join(path.dirname(fs.realpathSync(__filename)), '../lib');
 
 var ds = require(lib + '/dailysentence.js');
 ds();
-

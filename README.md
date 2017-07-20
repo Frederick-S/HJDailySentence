@@ -1,5 +1,7 @@
 # 沪江每日一句
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Frederick-S/HJDailySentence.svg)](https://greenkeeper.io/)
+
 沪江每日一句汇总。（暂收录英，日，德三语）
 
 ## Installation

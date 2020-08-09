@@ -16,7 +16,7 @@
     "cheerio": ">=0.13.1",
     "cli-table": "https://github.com/katoy/cli-table/tarball/kanjiWidth",
     "async": "0.9.0",
-    "request": "2.36.0"
+    "request": "2.88.2"
   },
   "engines": {
     "node": "*"
